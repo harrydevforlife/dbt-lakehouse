@@ -33,5 +33,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   res_lakehouse:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    silver:
+      +schema: 'restaurant_silver'
+      +materialized: table
+    gold:
+      +schema: 'restaurant_gold'
       +materialized: view

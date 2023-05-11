@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: restaurant_gold
+    schema: restaurant_gold
+    tables:
+      - name: business
+      - name: user
+      - name: review
+      - name: checkin
+      - name: tip
+

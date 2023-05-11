@@ -9,4 +9,9 @@ sources:
       - name: review
       - name: checkin
       - name: tip
-
+  - name: restaurant_silver
+    schema: restaurant_silver
+    tables:
+      - name: fact_review
+      - name: dim_user
+      - name: dim_restaurant
